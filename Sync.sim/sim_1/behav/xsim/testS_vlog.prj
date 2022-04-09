@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "D:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../Sync.srcs/sim_1/new/testS.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

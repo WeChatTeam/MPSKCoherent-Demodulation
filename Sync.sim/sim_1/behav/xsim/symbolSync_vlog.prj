@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../src/ErrDetecer.v" \
+"../../../../src/InterpolatedFilter.v" \
+"../../../../src/LoopFilter.v" \
+"../../../../Sync.srcs/sources_1/new/Resample.v" \
+"../../../../src/TimingControl.v" \
+"../../../../src/symbolSync.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

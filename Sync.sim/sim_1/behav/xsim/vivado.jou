@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Mar 25 11:02:56 2022
+# Process ID: 23740
+# Current directory: C:/Users/Administrator/Desktop/Sync/Sync.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26952 C:\Users\Administrator\Desktop\Sync\Sync.sim\sim_1\behav\xsim\testbench_behav.wdb
+# Log file: C:/Users/Administrator/Desktop/Sync/Sync.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/Sync/Sync.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\Administrator\Desktop\Sync\Sync.sim\sim_1\behav\xsim\testbench_behav.wdb}
+close_sim

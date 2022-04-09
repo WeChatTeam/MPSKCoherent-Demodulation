@@ -1,0 +1,74 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 6073df681eed4583a12e3418ec4db847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testBench_behav xil_defaultlib.testBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-597] element index 16 into I_data is out of bounds [D:/WorkSpace/Sync/Sync.srcs/sim_1/new/testBench.sv:65]
+WARNING: [VRFC 10-597] element index 16 into Q_data is out of bounds [D:/WorkSpace/Sync/Sync.srcs/sim_1/new/testBench.sv:66]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/symbolSync.v" Line 7. Module symbolSync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/InterpolatedFilter.v" Line 3. Module InterpolatedFilter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/coffCulate.v" Line 12. Module coffCulate(INT_WIDTH=1,DEC_WIDTH=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dffr.v" Line 1. Module dffr(DATA_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/ErrDetecer.v" Line 3. Module ErrDetecer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/ErrDetecerCulate.v" Line 3. Module ErrDetecerCulate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dffr.v" Line 1. Module dffr(DATA_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/LoopFilter.v" Line 3. Module LoopFilter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/LoopFilterCulate.v" Line 4. Module LoopFilterCulate(INT_WIDTH=1,DEC_WIDTH=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dffr.v" Line 1. Module dffr(DATA_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflrc.v" Line 1. Module dfflrc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/TimingControl.v" Line 3. Module TimingControl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr(DATA_WIDTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr(DATA_WIDTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflr.v" Line 1. Module dfflr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflrc.v" Line 1. Module dfflrc(DATA_WIDTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dfflrc.v" Line 1. Module dfflrc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/Resample.v" Line 3. Module Resample doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dff.v" Line 1. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/WorkSpace/Sync/src/DFF/dff.v" Line 1. Module dff doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.coffCulate(INT_WIDTH=1,DEC_WIDTH...
+Compiling module xil_defaultlib.dfflr
+Compiling module xil_defaultlib.dffr(DATA_WIDTH=2)
+Compiling module xil_defaultlib.InterpolatedFilter
+Compiling module xil_defaultlib.ErrDetecerCulate
+Compiling module xil_defaultlib.ErrDetecer
+Compiling module xil_defaultlib.LoopFilterCulate(INT_WIDTH=1,DEC...
+Compiling module xil_defaultlib.dfflrc
+Compiling module xil_defaultlib.LoopFilter
+Compiling module xil_defaultlib.dfflr(DATA_WIDTH=1)
+Compiling module xil_defaultlib.dfflrc(DATA_WIDTH=1)
+Compiling module xil_defaultlib.TimingControl
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.Resample
+Compiling module xil_defaultlib.symbolSync
+Compiling module xil_defaultlib.testBench
+WARNING: [XSIM 43-3373] "D:/WorkSpace/Sync/Sync.srcs/sim_1/new/testBench.sv" Line 37. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "D:/WorkSpace/Sync/Sync.srcs/sim_1/new/testBench.sv" Line 42. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testBench_behav

@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/ErrDetecer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ErrDetecer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/ErrDetecerCulate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ErrDetecerCulate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/InterpolatedFilter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InterpolatedFilter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/LoopFilter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LoopFilter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/LoopFilterCulate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LoopFilterCulate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/Resample.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Resample
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/TimingControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TimingControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/coffCulate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coffCulate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/DFF/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/DFF/dfflr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dfflr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/DFF/dfflrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dfflrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/DFF/dffr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WorkSpace/Sync/src/symbolSync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module symbolSync
