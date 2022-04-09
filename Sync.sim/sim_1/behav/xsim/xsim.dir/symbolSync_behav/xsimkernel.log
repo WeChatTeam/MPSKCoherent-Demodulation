@@ -1,7 +1,0 @@
-Running: xsim.dir/symbolSync_behav/xsimk.exe -simmode gui -wdb symbolSync_behav.wdb -simrunnum 0 -socket 61772
-Design successfully loaded
-Design Loading Memory Usage: 7160 KB (Peak: 7160 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 7800 KB (Peak: 7800 KB)
-Simulation CPU Usage: 0 ms
