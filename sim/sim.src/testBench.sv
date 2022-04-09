@@ -29,10 +29,10 @@ module testBench;
     );
 
     initial begin
-        file_I = $fopen("D:/WorkSpace/Sync/data/I_signal.txt", "r");
-        file_Q = $fopen("D:/WorkSpace/Sync/data/Q_signal.txt", "r");
-        file_I_OUT = $fopen("D:/WorkSpace/Sync/data/I_out_signal.txt", "w");
-        file_Q_OUT = $fopen("D:/WorkSpace/Sync/data/Q_out_signal.txt", "w");
+        file_I = $fopen("D:/WorkSpace/Github/MPSKCoherent-Demodulation/data/I_signal.txt", "r");
+        file_Q = $fopen("D:/WorkSpace/Github/MPSKCoherent-Demodulation/data/Q_signal.txt", "r");
+        file_I_OUT = $fopen("D:/WorkSpace/Github/MPSKCoherent-Demodulation/data/I_out_signal.txt", "w");
+        file_Q_OUT = $fopen("D:/WorkSpace/Github/MPSKCoherent-Demodulation/data/Q_out_signal.txt", "w");
         while (n<=len) begin
             $fscanf(file_I, "%h\n", I_data[n][DATA_WIDTH-1:0]);
             n=n+1;

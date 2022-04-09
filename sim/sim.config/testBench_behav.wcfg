@@ -11,56 +11,62 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="696500001fs"></ZoomEndTime>
-      <Cursor1Time time="196000000fs"></Cursor1Time>
+      <ZoomStartTime time="200000000fs"></ZoomStartTime>
+      <ZoomEndTime time="1376000001fs"></ZoomEndTime>
+      <Cursor1Time time="2110000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="161"></NameColumnWidth>
-      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="67"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="9" />
-   <wvobject fp_name="/testBench/rstn" type="logic">
-      <obj_property name="ElementShortName">rstn</obj_property>
-      <obj_property name="ObjectShortName">rstn</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testBench/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
+   <WVObjectSize size="8" />
    <wvobject fp_name="/testBench/data_I_IN" type="array">
       <obj_property name="ElementShortName">data_I_IN[15:0]</obj_property>
       <obj_property name="ObjectShortName">data_I_IN[15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">50</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
       <obj_property name="radix_fractionWidth">14</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="/testBench/data_I_OUT" type="array">
-      <obj_property name="ElementShortName">data_I_OUT[15:0]</obj_property>
-      <obj_property name="ObjectShortName">data_I_OUT[15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="/testBench/data_Q_IN" type="array">
+      <obj_property name="ElementShortName">data_Q_IN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_Q_IN[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">50</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
       <obj_property name="radix_fractionWidth">14</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
    </wvobject>
-   <wvobject fp_name="/testBench/test/TimingControl_u1/mk" type="logic">
-      <obj_property name="ElementShortName">mk</obj_property>
-      <obj_property name="ObjectShortName">mk</obj_property>
-      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
+   <wvobject fp_name="/testBench/test/OutputDataQ" type="array">
+      <obj_property name="ElementShortName">OutputDataQ[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OutputDataQ[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
-   <wvobject fp_name="/testBench/test/ErrDetecer_u1/ErrDetecerOutputData" type="array">
-      <obj_property name="ElementShortName">ErrDetecerOutputData[15:0]</obj_property>
-      <obj_property name="ObjectShortName">ErrDetecerOutputData[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testBench/test/LoopFilter_u1/LoopFilterOutputData" type="array">
-      <obj_property name="ElementShortName">LoopFilterOutputData[15:0]</obj_property>
-      <obj_property name="ObjectShortName">LoopFilterOutputData[15:0]</obj_property>
+   <wvobject fp_name="/testBench/test/OutputDataI" type="array">
+      <obj_property name="ElementShortName">OutputDataI[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OutputDataI[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
    <wvobject fp_name="/testBench/test/TimingControl_u1/uk" type="array">
       <obj_property name="ElementShortName">uk[15:0]</obj_property>
@@ -70,16 +76,26 @@
       <obj_property name="radix_fractionWidth">14</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
-   <wvobject fp_name="/testBench/data_Q_OUT" type="array">
-      <obj_property name="ElementShortName">data_Q_OUT[15:0]</obj_property>
-      <obj_property name="ObjectShortName">data_Q_OUT[15:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+   <wvobject fp_name="/testBench/test/LoopFilter_u1/LoopFilterOutputData" type="array">
+      <obj_property name="ElementShortName">LoopFilterOutputData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LoopFilterOutputData[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
       <obj_property name="radix_fractionWidth">14</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
-      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
-      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench/test/ErrDetecer_u1/ErrDetecerOutputData" type="array">
+      <obj_property name="ElementShortName">ErrDetecerOutputData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ErrDetecerOutputData[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench/test/TimingControl_u1/mk" type="logic">
+      <obj_property name="ElementShortName">mk</obj_property>
+      <obj_property name="ObjectShortName">mk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CellHeight">100</obj_property>
    </wvobject>
 </wave_config>
