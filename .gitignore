@@ -3,10 +3,10 @@ constraints/
 Sync.cache/
 Sync.sim/
 Sync.hw/
-Sync.ip_user_files/
+Sync.ip_user_files/README.txt
 Sync.srcs/
 Sync.runs/
-*.xpr
+Sync.xpr
 *.log
 *.jou
 *.str
