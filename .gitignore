@@ -1,6 +1,12 @@
 .Xill/
+constraints/
 Sync.cache/
 Sync.sim/
+Sync.hw/
+Sync.ip_user_files/
+Sync.srcs/
+Sync.runs/
+*.xpr
 *.log
 *.jou
 *.str
